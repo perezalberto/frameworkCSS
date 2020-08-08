@@ -1,0 +1,7 @@
+@mixin media($breakpoints){
+    @each $name, $size in $breakpoints {
+        @media (min-width: $size) {
+            @content($name);
+        }
+    }
+}

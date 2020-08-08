@@ -1,0 +1,15 @@
+@import "mixins/media";
+
+@include media($media-breakpoints) using ($name) {
+    @if $name == xs or $name == sm {
+        .container {
+            width: 100%;
+            margin: 0 auto;
+        }
+    } @else {
+        .container {
+            width: map-get($media-breakpoints, $name)-32px;
+            margin: 0 auto;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+@each $name, $width in $border-width {
+    .b-#{$name}{
+        border-width: $width;
+    }
+    .bt-#{$name}{
+        border-top-width: $width;
+    }
+    .bb-#{$name}{
+        border-bottom-width: $width;
+    }
+    .bl-#{$name}{
+        border-left-width: $width;
+    }
+    .br-#{$name}{
+        border-right-width: $width;
+    }
+}
+
+@each $name in $border-style {
+    .b-#{$name}{
+        border-style: $name;
+    }
+    .bt-#{$name}{
+        border-top-style: $name;
+    }
+    .bb-#{$name}{
+        border-bottom-style: $name;
+    }
+    .bl-#{$name}{
+        border-left-style: $name;
+    }
+    .br-#{$name}{
+        border-right-style: $name;
+    }
+}
+
+@each $name, $radius in $border-radius{
+    .rad-#{$name}{
+        border-radius: $radius;
+    }
+}

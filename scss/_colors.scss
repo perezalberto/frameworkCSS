@@ -1,0 +1,48 @@
+@each $name, $color in $colors {
+    .bg-#{$name}{
+        background-color: $color;
+    }
+    .c-#{$name}{
+        color: $color;
+    }
+
+    .b-#{$name}{
+        border-color: $color;
+    }
+    .bt-#{$name}{
+        border-top-color: $color;
+    }
+    .bb-#{$name}{
+        border-bottom-color: $color;
+    }
+    .bl-#{$name}{
+        border-left-color: $color;
+    }
+    .br-#{$name}{
+        border-right-color: $color;
+    }
+}
+
+@each $name, $gray in $grays {
+    .bg-g#{$name}{
+        background-color: $gray;
+    }
+    .c-g#{$name}{
+        color: $gray;
+    }
+    .b-g#{$name}{
+        border-color: $gray;
+    }
+    .bt-g#{$name}{
+        border-top-color: $gray;
+    }
+    .bb-g#{$name}{
+        border-bottom-color: $gray;
+    }
+    .bl-g#{$name}{
+        border-left-color: $gray;
+    }
+    .br-g#{$name}{
+        border-right-color: $gray;
+    }
+}

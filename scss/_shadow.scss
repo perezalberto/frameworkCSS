@@ -1,0 +1,8 @@
+@each $name, $shadow in $shadows {
+    .bsh-#{$name}{
+        box-shadow: $shadow;
+    }
+    .tsh-#{$name}{
+        text-shadow: $shadow;
+    }
+}

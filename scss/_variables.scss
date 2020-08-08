@@ -1,0 +1,124 @@
+// Colors
+$white: #ffffff;
+$black: #111111;
+
+$grays: (
+    "100": #f8f9fa,
+    "200": #e9ecef,
+    "300": #dee2e6,
+    "400": #ced4da,
+    "500": #adb5bd,
+    "600": #6c757d,
+    "700": #495057,
+    "800": #343a40,
+    "900": #212529,
+);
+
+$primary: #336699;
+$secondary: #6699cc;
+$accent: #FF5722;
+
+$colors: (
+    "navy":    #001f3f,
+    "blue":    #0074d9,
+    "aqua":    #7fdbff,
+    "teal":    #39cccc,
+    "olive":   #3d9970,
+    "green":   #2ecc40,
+    "lime":    #01ff70,
+    "yellow":  #ffdc00,
+    "orange":  #ff851b,
+    "red":     #ff4136,
+    "fuchsia": #f012be,
+    "purple":  #b10dc9,
+    "maroon":  #85144b,
+    "white":   $white,
+    "gray":    #aaaaaa,
+    "silver":  #dddddd,
+    "black":   $black,
+
+    "primary": $primary,
+    "secondary": $secondary,
+    "accent": $accent
+);
+
+// Sizes (padding/margin)
+$sizes: (
+    "xs": 0.6rem,
+    "sm": 1.1rem,
+    "md": 1.6rem,
+    "lg": 2.1rem,
+    "xl": 2.6rem,
+    "xxl": 3.1rem
+);
+
+//columns
+$columns-number: 12;
+
+// display breakpoints
+$media-breakpoints: (
+    xs: 0px,
+    sm: 480px,
+    md: 768px,
+    lg: 900px,
+    xl: 1200px,
+    xxl:1500px
+);
+
+// border radius
+$border-radius: (
+    "xs": 0.4rem,
+    "sm": 0.6rem,
+    "md": 0.8rem,
+    "lg": 1rem,
+    "xl": 1.2rem,
+    "xxl": 1.4rem
+);
+
+// border width
+$border-width: (
+    "xs": 0.1rem,
+    "sm": 0.2rem,
+    "md": 0.3rem,
+    "lg": 0.4rem,
+    "xl": 0.5rem,
+    "xxl": 0.6rem
+);
+
+// border style
+$border-style: (
+    dashed
+    dotted
+    double
+    groove
+    hidden
+    inset
+    none
+    outset
+    ridge
+    solid
+    inherit
+);
+
+//shadow
+$shadow-color: rgba(0,0,0,0.4);
+$shadows: (
+    "xs": 0 1px 2px $shadow-color,
+    "sm": 0 3px 6px $shadow-color,
+    "md": 0 5px 10px $shadow-color,
+    "lg": 0 7px 14px $shadow-color,
+    "xl": 0 9px 18px $shadow-color,
+    "xxl": 0 11px 22px $shadow-color,
+);
+
+// Fonts
+$font-family-base: 'Roboto', sans-serif;
+$font-size-base: 18px;
+$font-weight-base: 400;
+$line-height-base: 1.6;
+
+// Font size
+$font-size: (
+    min:10,
+    max:40
+);

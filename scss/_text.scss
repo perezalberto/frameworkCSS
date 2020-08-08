@@ -1,0 +1,5 @@
+@for $i from map-get($font-size,min) through map-get($font-size,max) {
+    .txt-size-#{$i}{
+        font-size: #{$i/10}rem;
+    }
+}

@@ -1,0 +1,131 @@
+@import "mixins/media";
+
+.f-container {
+    display: flex;
+
+    &.f-wrap {
+        flex-wrap: wrap;
+    }
+
+    &.f-wrapr {
+        flex-wrap: wrap-reverse;
+    }
+
+    //justify content
+    &.f-justify-start {
+        justify-content: flex-start;
+    }
+
+    &.f-justify-end {
+        justify-content: flex-end;
+    }
+
+    &.f-justify-center {
+        justify-content: center;
+    }
+
+    &.f-justify-between {
+        justify-content: space-between;
+    }
+
+    &.f-justify-around {
+        justify-content: space-around;
+    }
+
+    &.f-justify-evenly {
+        justify-content: space-evenly;
+    }
+
+    //align items
+    &.f-align-items-start{
+        align-items: flex-start;
+    }
+
+    &.f-align-items-end{
+        align-items: flex-end;
+    }
+
+    &.f-align-items-center{
+        align-items: center;
+    }
+
+    &.f-align-items-stretch{
+        align-items: stretch;
+    }
+
+    &.f-align-items-baseline{
+        align-items: baseline;
+    }
+
+    //align content
+    &.f-align-content-start{
+        align-content: flex-start;
+    }
+
+    &.f-align-content-end{
+        align-content: flex-end;
+    }
+
+    &.f-align-content-center{
+        align-content: center;
+    }
+
+    &.f-align-content-stretch{
+        align-content: stretch;
+    }
+
+    &.f-align-content-between{
+        align-content: space-between;
+    }
+
+    &.f-align-content-around{
+        align-content: space-around;
+    }
+
+    //align self
+    &>.f-align-self-auto{
+        align-self: auto;
+    }
+
+    &>.f-align-self-start{
+        align-self: flex-start;
+    }
+    
+    &>.f-align-self-end{
+        align-self: flex-end;
+    }
+    
+    &>.f-align-self-center{
+        align-self: center;
+    }
+    
+    &>.f-align-self-beseline{
+        align-self: baseline;
+    }
+    
+    &>.f-align-self-stretch{
+        align-self: stretch;
+    }
+
+
+    @include media($media-breakpoints) using ($name) {
+        &.f-row-#{$name} {
+            flex-direction: row;
+        }
+        &.f-col-#{$name} {
+            flex-direction: column;
+        }
+        &.f-rowr-#{$name} {
+            flex-direction: row-reverse;
+        }
+        &.f-colr-#{$name} {
+            flex-direction: column-reverse;
+        }
+    }
+
+    @for $i from 1 through $columns-number {
+        > .f-grow-#{$i} {
+            flex-grow: $i;
+        }
+    }
+}
