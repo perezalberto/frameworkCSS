@@ -1,0 +1,10 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+@each $name, $value in $h-font-size {
+    #{$name}{
+        font-size: $value;
+    }
+}
+

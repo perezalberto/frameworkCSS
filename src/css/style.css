@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+a.btn, button.btn {
+  margin: 0;
+  padding: 0.5em 0.75rem;
+  border-radius: 0;
+  text-decoration: none;
+}
+a.btn-accent, button.btn-accent {
+  background: #F96D06;
+  color: #fee2cd;
+  text-shadow: 1px 1px 1px #e06205;
+  box-shadow: 0px 1px 2px #adb5bd;
+  transition: background 100ms ease-out;
+}
+a.btn-accent:hover, button.btn-accent:hover {
+  background-color: #fa832b;
+}
+a.btn-primary, button.btn-primary {
+  background: #6900E2;
+  color: #d4afff;
+  text-shadow: 1px 1px 1px #5d00c9;
+  box-shadow: 0px 1px 2px #adb5bd;
+  transition: background 100ms ease-out;
+}
+a.btn-primary:hover, button.btn-primary:hover {
+  background-color: #7b09ff;
+}
+a.btn-primary-dark, button.btn-primary-dark {
+  background: #32007A;
+  color: #9247ff;
+  text-shadow: 1px 1px 1px #280061;
+  box-shadow: 0px 1px 2px #adb5bd;
+  transition: background 100ms ease-out;
+}
+a.btn-primary-dark:hover, button.btn-primary-dark:hover {
+  background-color: #4200a0;
+}
+a.btn-primary-light, button.btn-primary-light {
+  background: #9857FF;
+  color: #35008a;
+  text-shadow: -1px -1px 1px #a871ff;
+  box-shadow: 0px 1px 2px #adb5bd;
+  transition: background 100ms ease-out;
+}
+a.btn-primary-light:hover, button.btn-primary-light:hover {
+  background-color: #8131ff;
+}
+a.btn-success, button.btn-success {
+  background: #28a745;
+  color: #afecbd;
+  text-shadow: 1px 1px 1px #23923d;
+  box-shadow: 0px 1px 2px #adb5bd;
+  transition: background 100ms ease-out;
+}
+a.btn-success:hover, button.btn-success:hover {
+  background-color: #2fc652;
+}
+a.btn-info, button.btn-info {
+  background: #17a2b8;
+  color: #a7e9f4;
+  text-shadow: 1px 1px 1px #148ea1;
+  box-shadow: 0px 1px 2px #adb5bd;
+  transition: background 100ms ease-out;
+}
+a.btn-info:hover, button.btn-info:hover {
+  background-color: #1bc0da;
+}
+a.btn-warning, button.btn-warning {
+  background: #ffc107;
+  color: #3a2c00;
+  text-shadow: -1px -1px 1px #ffc721;
+  box-shadow: 0px 1px 2px #adb5bd;
+  transition: background 100ms ease-out;
+}
+a.btn-warning:hover, button.btn-warning:hover {
+  background-color: #e0a800;
+}
+a.btn-danger, button.btn-danger {
+  background: #dc3545;
+  color: #3b0a0f;
+  text-shadow: -1px -1px 1px #e04b59;
+  box-shadow: 0px 1px 2px #adb5bd;
+  transition: background 100ms ease-out;
+}
+a.btn-danger:hover, button.btn-danger:hover {
+  background-color: #c82333;
+}
+a.btn-light, button.btn-light {
+  background: #f8f9fa;
+  color: #8193a5;
+  text-shadow: -1px -1px 1px white;
+  box-shadow: 0px 1px 2px #adb5bd;
+  transition: background 100ms ease-out;
+}
+a.btn-light:hover, button.btn-light:hover {
+  background-color: #e2e6ea;
+}
+a.btn-dark, button.btn-dark {
+  background: #343a40;
+  color: #96a0aa;
+  text-shadow: 1px 1px 1px #292d32;
+  box-shadow: 0px 1px 2px #adb5bd;
+  transition: background 100ms ease-out;
+}
+a.btn-dark:hover, button.btn-dark:hover {
+  background-color: #454d55;
+}
+
+/*# sourceMappingURL=style.css.map */

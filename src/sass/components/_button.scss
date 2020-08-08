@@ -1,0 +1,22 @@
+@import '../mixins/colors';
+
+a, button{
+    &.btn{
+        margin: 0;
+        padding: $btn-padding;
+        border-radius: $radius;
+        text-decoration: none;
+    }
+    @each $color, $value in $theme-colors {
+        &.btn-#{$color}{
+            background: $value;
+            color: emphasisColor($value,80%);
+            &:hover{
+                background-color: emphasisColor($value,15%);
+            }
+            text-shadow: textShadow($value);
+            box-shadow: 0px 1px 2px $gray-500;
+            transition: background 100ms ease-out;
+        }
+    }
+}

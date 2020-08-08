@@ -1,0 +1,23 @@
+@function emphasisColor($bgColor,$amount) {
+    @if $amount > 100% {
+        $amount: 100%;
+    }
+
+    @if $amount < 0% {
+        $amount: 0%;
+    }
+
+    @if lightness($bgColor) > 50% {
+        @return darken($bgColor,$amount/2);
+    }@else{
+        @return lighten($bgColor,$amount/2);
+    }
+}
+
+@function textShadow($color) {
+    @if lightness($color) > 50% {
+        @return -1px -1px 1px lighten($color,5%);
+    }@else{
+        @return 1px 1px 1px darken($color,5%);
+    }
+}
