@@ -1,11 +1,6 @@
 # Framework CSS
 
-Simple css framework
-
-## Table of contents
-
-- [Quick start](#quick-start)
-- [Documentation](#documentation)
+Simple css framework, created for educational proposes
 
 ## Quick start
 Download:
@@ -19,6 +14,3 @@ and compile:
 npm run min
 ```
 use css/style.min.css
-
-## Documentation
-comming soon...
