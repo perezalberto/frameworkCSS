@@ -1,6 +1,6 @@
 # Framework CSS
 
-Simple css framework, created for educational proposes
+Framework CSS created to learn SASS
 
 ## Quick start
 Download:
